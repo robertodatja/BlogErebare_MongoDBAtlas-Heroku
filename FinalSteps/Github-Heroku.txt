@@ -1,0 +1,46 @@
+0. Mongoshell:
+db.posts.find()
+db.posts.drop()
+db.posts.find()
+
+1.Delete git file
+Delete read.md file
+Create repository in Github
+
+2.Delete:  git file
+
+3.Terminal:
+cd ProjectLocation
+git init
+git add .
+git commit -m "first commit"
+
+git remote add origin https://github.com/robertodatja/-erebareonline-posts_MongoDB-Atlas_Heroku.git
+git branch -M main
+git push -u origin main
+
+
+4.1 Delete /Configs from .gitignore file
+4.2Terminal
+heroku apps
+heroku create erebare
+git push heroku main
+
+
+
+5.Create (this file) Github-Heroku.txt that explain all needed steps.
+
+5.1. Add /Configs in .gitignore file
+5.2Terminal:
+git add.
+git commit -m "secondcommit"
+
+git remote add origin https://github.com/robertodatja/-erebareonline-posts_MongoDB-Atlas_Heroku.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+PROBLEM:
+Cannot read properties of undefined (reading 'forEach'), Solution updated 2022!
+(node:14468) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14468) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:14468) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:14468) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+SOLUTION:
+This problem happens because the version of your package MongoDB is not the latest!So delete the mongoose package and re-install it again from Hyperterminal by using the command: npm i mongoose. Be sure that you are in the location of your project.
+
+If there is any problem again:
+
+I recommend deleting the blogDB database from Hyperterminal(Mongo Shell).
+
+I recommend deleting both files package.json and package-lock.json.
+
+After re-install all needed packages. In our case: npm i body-parser express ejs lodash mongoose.For more follow these links:
+
+https://www.mongodb.com/community/forums/t/warning-accessing-non-existent-property-count-of-module-exports-inside-circular-dependency/3183/5
+
+https://github.com/robertodatja

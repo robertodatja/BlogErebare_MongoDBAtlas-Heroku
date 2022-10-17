@@ -1,0 +1,23 @@
+<%- include("partials/header"); -%>
+
+<h1> Home </h1>
+<p>
+ <%=startingContent%>
+ <a href="/about">Read More</a>
+</p>
+
+<center>  <img src="homeImage2.jpeg">  </center>
+
+<%posts.forEach( function(postObj){ %>
+<h1> <%=postObj.titleKey%> </h1>
+
+<p>
+ <%=postObj.contentKey.substring(0,100) + "..."%>
+ <a href="/posts/<%=postObj._id%>">Read More</a>
+</p>
+<% }); %>
+
+
+
+
+<%- include("partials/footer"); -%>
