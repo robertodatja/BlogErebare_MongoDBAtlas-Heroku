@@ -33,6 +33,9 @@ git push heroku main
 5.1. Add /Configs in .gitignore file
 5.2Terminal:
 git add.
+
+6.After we go to  https://erebare2022.herokuapp.com/compose
+and post daily news.
 git commit -m "secondcommit"
 
 git remote add origin https://github.com/robertodatja/-erebareonline-posts_MongoDB-Atlas_Heroku.git
